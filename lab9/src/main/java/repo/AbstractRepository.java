@@ -3,9 +3,7 @@ package repo;
 
 import entity.Artist;
 
-import javax.persistence.EntityManager;
-import javax.persistence.EntityManagerFactory;
-import javax.persistence.Persistence;
+import javax.persistence.*;
 import javax.persistence.Query;
 
 
