@@ -14,11 +14,13 @@ public class Album {
     private int artist_id;
     private String name;
     private int release_year;
+    private String musicGenre;
     
     public Album(String name, int artist_id, int release_year) {
         this.name = name;
         this.artist_id = artist_id;
         this.release_year = release_year;
+        
     }
 
     /**
@@ -63,6 +65,13 @@ public class Album {
         this.release_year = release_year;
     }
     
+    public String getMusicGenre() {
+        return musicGenre;
+    }
+
+    public void setMusicGenre(String musicGenre) {
+        this.musicGenre = musicGenre;
+    }
     
     
 }
