@@ -8,7 +8,7 @@ import entity.Artist;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ChartsRepository {
+public class ChartsRepository extends AbstractRepository{
     private EntityManagerFactory entityManagerFactory = Persistence.createEntityManagerFactory("MusicAlbumsPU");
     EntityManager entityManager = entityManagerFactory.createEntityManager();
 
