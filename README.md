@@ -19,3 +19,14 @@ iar acest obiect este preluat cu ajutorul lui getResultList() pentru a returna r
 Metoda findByArtist a clasei AlbumRepository are un element EntityManager. Metoda createNamedQuery 
 returneaza un obiect de tip query, iar acest obiect este preluat cu ajutorul lui getResultList() 
 pentru a returna rezultatul cautat.
+
+OPTIONAL:
+
+Clasa Charts are id-ul propriu si id-ul relativ albumului.
+
+Clasa abstracta AbstractRepository este extinsa in ChartsRepository cu metoda create.
+ChartsRepository ne da posibilitatea de a gasi albume in functie de genul muzical din care fac parte,
+putand fiind ordonate prin data lor de lansare
+
+Metodele sortAlbumsCharts si getByGenres au fiecare un element EntityManager care preia intr-un query
+instanta sql dorita pentru a fi returnata.
